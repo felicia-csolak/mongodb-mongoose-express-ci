@@ -721,8 +721,7 @@ Now we're ready to deploy to Heroku and specify our MongoDB Atlas URI connection
 > Make sure you're on the `master` branch!
 
 1. `heroku create your-heroku-app-name`
-2. `heroku buildpacks:set heroku/nodejs`
-3. `heroku config:set PROD_MONGODB="<INSERT YOUR MONGODB URI CONNECTION STRING HERE>"`
+2. `heroku config:set PROD_MONGODB="<INSERT YOUR MONGODB URI CONNECTION STRING HERE>"`
     - replace the word test in your connection string with the name of your a database: projectsDatabase
 
 ### Adding Deployment to the Travis CI Build
